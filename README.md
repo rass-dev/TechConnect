@@ -34,7 +34,7 @@ TechConnect is a Laravel-based e-commerce and inventory system designed for elec
 ## 🖼️ Screenshots
 
 ### Home / Banner
-![Home](Screenshots/home-banner.png)
+![Home](Screenshots/homepage-banner.png)
 
 ### About Page
 ![About](Screenshots/about-page.png)
