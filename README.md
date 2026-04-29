@@ -6,12 +6,12 @@
 
 ---
 
-## 📌 Info
+## Info
 TechConnect is a Laravel-based e-commerce and inventory system designed for electronics and accessories. It enables users to browse products, add items to cart, and place orders with automated email PDF receipts. Administrators can manage inventory, monitor sales, and generate reports through a centralized dashboard.
 
 ---
 
-## 🚀 Features
+## Features
 - Product browsing and catalog system  
 - Shopping cart and checkout process  
 - Automated email PDF receipt generation  
@@ -23,7 +23,7 @@ TechConnect is a Laravel-based e-commerce and inventory system designed for elec
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - **Backend:** PHP (Laravel)  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Database:** MySQL  
@@ -47,7 +47,7 @@ TechConnect is a Laravel-based e-commerce and inventory system designed for elec
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -124,7 +124,7 @@ php artisan serve
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Access the system:
 
