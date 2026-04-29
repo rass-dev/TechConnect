@@ -72,15 +72,39 @@ cp .env.example .env
 Open `.env` file and update:
 
 ```env
-DB_DATABASE=your_database_name
+DB_DATABASE=techconnect
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+---
+
+### 4.1 Import Database (Recommended)
+
+A ready-to-use database file is included in the project.
+
+1. Open **phpMyAdmin**
+2. Create a database named `techconnect`
+3. Go to **Import** tab
+4. Select the SQL file from:
+
+```
+database/techconnect.sql
+```
+
+5. Click **Import**
+
+---
 
 ### 5. Initialize Application
 
 ```bash
 php artisan key:generate
+```
+
+*(Skip migrate if using provided database)*
+
+```bash
 php artisan migrate
 ```
 
@@ -89,6 +113,8 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
+
+---
 
 ### 6. Start the Server
 
@@ -123,5 +149,5 @@ php artisan serve
 
 * Make sure XAMPP/Laragon and MySQL are running
 * Ensure `.env` is properly configured
-* Email feature may require mail setup
-
+* A ready-to-use database file is included in `/database` folder
+* Email feature may require mail configuration
