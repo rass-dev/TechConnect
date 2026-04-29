@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshots/logo.png" width="120"/>
+  <img src="Screenshots/logo.jpg" width="120"/>
 </p>
 
 <h2 align="center">TechConnect E-Commerce & Inventory System</h2>
