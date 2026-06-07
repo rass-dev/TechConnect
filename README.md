@@ -1,4 +1,4 @@
-````md
+
 <p align="center">
   <img src="Screenshots/logo.jpg" width="120"/>
 </p>
@@ -7,9 +7,9 @@
 
 ---
 
-## Overview
+## Info
 
-TechConnect is a Laravel-based e-commerce and inventory system designed for electronics and accessories. It enables users to browse products, add items to their cart, and place orders with automated email PDF receipts. Administrators can manage inventory, monitor sales, and generate reports through a centralized dashboard.
+TechConnect is a Laravel-based e-commerce and inventory system designed for electronics and accessories. It enables users to browse products, add items to cart, and place orders with automated email PDF receipts. Administrators can manage inventory, monitor sales, and generate reports through a centralized dashboard.
 
 ---
 
@@ -37,67 +37,107 @@ TechConnect is a Laravel-based e-commerce and inventory system designed for elec
 
 ## 🖼️ Screenshots
 
+<table>
+<tr>
+<td align="center">
+<img src="Screenshots/logo.jpg" width="120"/>
+
 ### Logo
 
-![Logo](Screenshots/logo.jpg)
+Represents the official branding and identity of TechConnect.
+</td>
+</tr>
+</table>
 
-Represents the official branding and identity of the TechConnect E-Commerce & Inventory System.
+<br>
 
----
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/home-page.png"/>
 
 ### Home Page
 
-![Home](Screenshots/home-page.png)
-
 Serves as the main landing page, showcasing featured products, promotions, and store services.
 
----
+</td>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/about-page.png"/>
 
 ### About Page
 
-![About](Screenshots/about-page.png)
-
 Displays information about TechConnect, including its purpose, features, and company branding.
 
----
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/products-page.png"/>
 
 ### Products Page
 
-![Products](Screenshots/products-page.png)
-
 Allows users to browse products and filter them by category, brand, and price range.
 
----
+</td>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/contact-page.png"/>
 
 ### Contact Page
 
-![Contact](Screenshots/contact-page.png)
-
 Enables customers to send inquiries and view the company's contact details and location.
 
----
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/paypal-checkout-page.png"/>
 
 ### PayPal Checkout Page
 
-![PayPal Checkout](Screenshots/paypal-checkout-page.png)
-
 Displays the PayPal payment gateway where users can securely complete their purchases.
 
----
+</td>
+
+<td width="50%" valign="top">
+
+<img src="Screenshots/order-details-page.png"/>
 
 ### Order Details Page
 
-![Order Details](Screenshots/order-details-page.png)
-
 Shows the complete order summary, shipping information, payment status, and purchased items.
 
----
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2" align="center">
+
+<img src="Screenshots/admin-dashboard-page.png"/>
 
 ### Admin Dashboard
 
-![Dashboard](Screenshots/admin-dashboard-page.png)
-
 Provides administrators with an overview of users, orders, revenue, and payment analytics.
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -108,7 +148,7 @@ Provides administrators with an overview of users, orders, revenue, and payment 
 ```bash
 git clone https://github.com/rass-dev/TechConnect.git
 cd TechConnect
-```
+````
 
 ### 2. Install Dependencies
 
@@ -124,7 +164,7 @@ cp .env.example .env
 
 ### 4. Configure Database
 
-Open the `.env` file and update:
+Open `.env` file and update:
 
 ```env
 DB_DATABASE=techconnect
@@ -136,12 +176,12 @@ DB_PASSWORD=
 
 ### 4.1 Import Database (Recommended)
 
-A ready-to-use database backup is included in the project.
+A ready-to-use database file is included in the project.
 
 1. Open **phpMyAdmin**
-2. Create a database named **techconnect**
-3. Go to the **Import** tab
-4. Select the SQL file:
+2. Create a database named `techconnect`
+3. Go to **Import** tab
+4. Select the SQL file from:
 
 ```
 TechConnect/techconnect_backup.sql
@@ -157,7 +197,7 @@ TechConnect/techconnect_backup.sql
 php artisan key:generate
 ```
 
-*(Skip migration if using the provided database.)*
+*(Skip migrate if using provided database)*
 
 ```bash
 php artisan migrate
@@ -181,35 +221,32 @@ php artisan serve
 
 ## Usage
 
-### Access the system
+### Access the system:
 
-```
 http://127.0.0.1:8000
-```
 
 ### User
 
-- Browse products
-- Add items to cart
-- Checkout orders
-- Receive email PDF receipts
+* Browse products
+* Add to cart
+* Checkout
+* Receive email receipt
 
-### Administrator
+### Admin
 
-- Manage products and categories
-- Monitor sales
-- Manage inventory
-- View reports and dashboard analytics
+* Manage products and categories
+* Monitor sales
+* View reports and dashboard
 
 ---
 
 ## 🔐 Notes
 
-- Make sure XAMPP or Laragon and MySQL are running.
-- Ensure the `.env` file is properly configured.
-- A ready-to-use database backup is included with the project.
-- Email functionality may require additional mail configuration.
-- PayPal integration may require API credentials for production use.
+* Make sure XAMPP/Laragon and MySQL are running.
+* Ensure `.env` is properly configured.
+* A ready-to-use database file is included in the project.
+* Email feature may require mail configuration.
+* PayPal integration may require API credentials for production.
 
 ---
 
@@ -220,4 +257,5 @@ http://127.0.0.1:8000
 Bachelor of Science in Information Technology
 
 GitHub: https://github.com/rass-dev
-````
+
+```
