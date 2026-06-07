@@ -1,0 +1,6 @@
+
+C:\laragon\www
+λ cd C:\laragon\www\TechConnect
+
+C:\laragon\www\TechConnect(main -> origin)
+λ php artisan serve
